@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-slate-700
+}
+
+#rounds{
+  grid-template-columns: repeat(19,1fr);
+} 
