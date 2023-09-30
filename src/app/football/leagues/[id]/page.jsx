@@ -1,7 +1,7 @@
 import Round from "@/components/Round";
 import League from "@/components/League";
 import TablaPosicion from "@/components/TablaPosicion";
-import { getFixtureForLeagueAndSeasonAndRound, getLeagueForId, getRoundForLeagueAndSeason, getStandingsForLeagueAndSeason, getTeamForLeagueAndSeason } from "@/helper/helper";
+import { getFixtureForLeagueAndSeasonAndRound, getLeagueForId, getRoundForLeagueAndSeason, getStandingsForLeagueAndSeason, getTeamForLeagueAndSeason } from "@/helper/Football/helper";
 import Fixture from "@/components/Fixture";
 
 const page = async({params}) => {

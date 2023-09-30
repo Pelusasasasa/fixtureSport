@@ -1,5 +1,5 @@
 import League from "@/components/League";
-import { getLeagues } from "@/helper/helper"
+import { getLeagues } from "@/helper/Football/helper"
 
 const Leagues = async() => {
     const leagues = await getLeagues();

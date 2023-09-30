@@ -1,4 +1,4 @@
-import { getFixtureForLiveAndIdFixture, getFixtureForLiveAndLeague, getFixtureForLiveAndLeagueAndIdTeam } from '@/helper/helper';
+import { getFixtureForLiveAndIdFixture, getFixtureForLiveAndLeague, getFixtureForLiveAndLeagueAndIdTeam } from '@/helper/Football/helper';
 import React from 'react'
 
 const Fixture = async({data}) => {

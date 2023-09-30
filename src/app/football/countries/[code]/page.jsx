@@ -1,6 +1,6 @@
 import Country from "@/components/Country"
 import League from "@/components/League";
-import { getConutryForCode, getLegueForCode } from "@/helper/helper"
+import { getConutryForCode, getLegueForCode } from "@/helper/Football/helper"
 
 const page = async({params}) => {
     const country = await getConutryForCode(params.code);
